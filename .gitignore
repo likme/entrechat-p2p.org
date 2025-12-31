@@ -1,0 +1,29 @@
+# Gradle / Android
+.gradle/
+**/build/
+local.properties
+
+# Artifacts / debug
+DEBUG_DB/
+Compilation/
+Run/
+Get/
+Task/
+*.hprof
+*.zip
+*.log
+
+# Android outputs
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Gradle wrapper (not used)
+gradle/wrapper/gradle-wrapper.jar

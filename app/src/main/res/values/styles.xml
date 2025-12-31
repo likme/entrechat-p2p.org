@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2025 likme
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<resources>
+
+    <!-- Base shape appearance namespace -->
+    <!-- Requires Theme.MaterialComponents.* -->
+    <style name="ShapeAppearance.Entrechat"
+        parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18dp</item>
+    </style>
+
+    <!-- Bubble overlay used by MaterialCardView -->
+    <style name="ShapeAppearance.Entrechat.Bubble"
+        parent="ShapeAppearance.Entrechat">
+        <item name="cornerSize">18dp</item>
+    </style>
+
+</resources>

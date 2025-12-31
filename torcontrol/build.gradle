@@ -1,0 +1,9 @@
+// Copyright (C) 2025 likme
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
+plugins { id 'java-library' }
+
+java {
+  sourceCompatibility = JavaVersion.VERSION_11
+  targetCompatibility = JavaVersion.VERSION_11
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2025 likme
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<resources>
+    <!-- Entrechat brand -->
+    <color name="ec_blue_primary">#1F3A5F</color>
+    <color name="ec_blue_secondary">#2F6DB3</color>
+    <color name="ec_yellow_accent">#F5C542</color>
+
+    <!-- Surfaces -->
+    <color name="ec_bg">#FFFFFF</color>
+    <color name="ec_surface">#F7F9FC</color>
+
+    <!-- Text -->
+    <color name="ec_on_primary">#FFFFFF</color>
+    <color name="ec_on_surface">#0E1A2B</color>
+</resources>

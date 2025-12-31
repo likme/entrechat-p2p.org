@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2025 likme
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<resources>
+
+    <!-- Main app theme -->
+    <style name="Theme.Entrechat" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/ec_blue_primary</item>
+        <item name="colorOnPrimary">@color/ec_on_primary</item>
+
+        <item name="colorSecondary">@color/ec_blue_secondary</item>
+        <item name="colorOnSecondary">@color/ec_on_primary</item>
+
+        <item name="colorTertiary">@color/ec_yellow_accent</item>
+
+        <item name="android:colorBackground">@color/ec_bg</item>
+        <item name="colorSurface">@color/ec_surface</item>
+        <item name="colorOnSurface">@color/ec_on_surface</item>
+
+
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Splash theme -->
+    <style name="Theme.Entrechat.Splash" parent="Theme.SplashScreen">
+        <item name="postSplashScreenTheme">@style/Theme.Entrechat</item>
+        <item name="windowSplashScreenBackground">@android:color/black</item>
+
+        <!-- Use an existing resource -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <item name="windowSplashScreenAnimationDuration">250</item>
+    </style>
+
+</resources>

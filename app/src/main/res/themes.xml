@@ -1,0 +1,13 @@
+<!--
+Copyright (C) 2025 likme
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<resources>
+    <style name="Theme.Entrechat" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#77216F</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#E95420</item>
+        <item name="colorBackground">#1E1E1E</item>
+    </style>
+</resources>

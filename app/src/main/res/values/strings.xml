@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2025 likme
+SPDX-License-Identifier: AGPL-3.0-or-later
+-->
+
+<resources>
+    <!-- Proper noun: unchanged across locales -->
+    <string name="app_name">Entrechat</string>
+
+    <!-- Common actions -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_import">Import</string>
+
+    <!-- Recommended: clearer than Approve/Reject -->
+    <string name="action_approve">Accept</string>
+    <string name="action_reject">Decline</string>
+
+    <string name="action_delete">Delete</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_show_qr">Show QR</string>
+
+    <!-- Main menu -->
+    <string name="main_menu_title">Entrechat</string>
+    <string name="main_menu_contacts">Contacts</string>
+    <string name="main_menu_identity">My identity</string>
+    <string name="main_menu_options">Options</string>
+
+    <!-- Options -->
+    <string name="options_title">Options</string>
+    <string name="options_language_title">Language</string>
+    <string name="options_language_value">Follows device language</string>
+    <string name="options_security_title">Security</string>
+
+    <!-- Recommended: remove jargon "out-of-band" -->
+    <string name="options_security_value">Confirm contact identity</string>
+
+    <string name="options_about_title">About</string>
+    <string name="options_about_version">Version %1$s</string>
+    <string name="options_runtime_title">Runtime</string>
+
+    <!-- Tor background + connection control -->
+    <string name="keep_tor_background_title">Keep connection active in background</string>
+    <string name="keep_tor_background_desc">Uses a persistent notification and may increase battery usage.</string>
+
+    <!-- Connection actions (clear hierarchy) -->
+    <string name="action_tor_reconnect">Reconnect</string>
+    <string name="action_tor_restart">Restart Tor</string>
+    <string name="action_tor_new_identity">Change Tor identity</string>
+
+    <!-- Optional helper text if you show subtitles under buttons -->
+    <string name="action_tor_reconnect_desc">Reconnects without changing your identity</string>
+    <string name="action_tor_restart_desc">Restarts Tor with the same identity</string>
+    <string name="action_tor_new_identity_desc">Creates a new .onion identity and breaks existing connections</string>
+
+    <!-- Foreground notification -->
+    <string name="notification_title">Entrechat</string>
+    <string name="notification_text">Secure connection active.</string>
+
+    <!-- Status -->
+    <string name="status_loading">Loading…</string>
+    <string name="status_ready">Available now</string>
+    <string name="status_identity_not_ready">Identity unavailable</string>
+
+    <!-- Identity -->
+    <string name="identity_title">My identity</string>
+    <string name="identity_fingerprint">ID</string>
+    <string name="identity_tor">Connection</string>
+    <string name="tor_not_running">Connection inactive</string>
+    <string name="tor_unavailable">Unavailable</string>
+    <string name="action_reconnect_tor">Reconnect Tor</string>
+    <string name="action_restart_tor_clean">Restart Tor (clean)</string>
+    <string name="action_kill_tor_clear_onion">Kill Tor + clear onion</string>
+
+
+    <string name="action_share_contact">Share my contact</string>
+    <string name="share_contact_subject">Entrechat contact</string>
+    <string name="share_contact_chooser">Share contact</string>
+    <string name="qr_title_my_contact">My Entrechat contact</string>
+    <string name="import_in_progress">Import in progress…</string>
+
+    <!-- Add Manual -->
+    <string name="action_add_manual">Ajout manuel</string>
+    <string name="contacts_add_manual_title">Ajouter un contact</string>
+    <string name="contacts_add_manual_fp_hint">Fingerprint (40 hex)</string>
+    <string name="contacts_add_manual_onion_hint">Adresse onion (host[:port])</string>
+    <string name="contacts_add_manual_pubkey_hint">Clé publique (Base64)</string>
+    <string name="toast_invalid_public_key">Clé publique invalide</string>
+
+
+    <!-- Contacts -->
+    <string name="contacts_title">Contacts</string>
+    <string name="action_import_contact">Import contact</string>
+    <string name="contacts_scan_prompt">Scan an Entrechat contact QR</string>
+    <string name="contacts_count_format">%1$d contact(s)</string>
+
+    <string name="contacts_label_fingerprint">ID: %1$s</string>
+    <string name="contacts_label_onion">Connection address: %1$s</string>
+    <string name="show_full_fingerprint">Show full ID</string>
+
+    <string name="verify_fp_oob">You can confirm identity by comparing this ID with the one your contact shared with you.</string>
+    <string name="contact_not_verified">Identity not confirmed.</string>
+
+    <!-- Import review dialog -->
+    <string name="import_review_title">Add this contact</string>
+    <string name="import_review_body">Before adding, you can compare their ID with the one they shared with you.</string>
+
+    <!-- Contact changed dialog -->
+    <string name="contact_changed_title">Contact identity changed</string>
+    <string name="contact_changed_body">This contact’s identity details changed. You can accept or decline this update.</string>
+
+    <!-- Contacts: change detail text blocks -->
+    <string name="contacts_changed_intro">Contact %1$s changed.</string>
+    <string name="contacts_changed_onion_label">Connection address changed:</string>
+    <string name="contacts_changed_key_changed">ID changed.</string>
+    <string name="contacts_changed_pending_detected">Pending changes detected.</string>
+    <string name="contacts_changed_approve_keeps_trust">Accepting applies the new identity. Confirmation stays unchanged.</string>
+
+    <string name="chat_preview_unreadable">(unreadable)</string>
+    <string name="chat_preview_unsupported">(unsupported)</string>
+
+    <!-- Contacts: actions -->
+    <string name="contacts_action_rename">Rename</string>
+    <string name="contacts_action_edit_address">Edit address</string>
+    <string name="contacts_action_clear_address">Clear address</string>
+    <string name="contacts_action_verify">Confirm identity</string>
+    <string name="contacts_action_delete_contact">Delete contact</string>
+    <string name="contacts_actions_title">Contact %1$s</string>
+
+    <string name="contacts_delete_title">Delete this contact?</string>
+    <string name="contacts_delete_body">This action is permanent.</string>
+
+    <string name="contacts_address_title">Contact address</string>
+    <string name="contacts_address_body">Enter a v3 .onion address in the form address[:port]. No URLs.</string>
+    <string name="contacts_address_hint">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.onion[:port]</string>
+
+    <string name="contacts_rename_title">Rename contact</string>
+    <string name="contacts_rename_hint">Name</string>
+
+    <!-- Chat -->
+    <string name="chat_title">Chat</string>
+    <string name="chat_title_note_to_self">Note to self</string>
+    <string name="chat_hint_message">Message</string>
+    <string name="chat_send">Send</string>
+
+    <!-- Banners -->
+    <string name="chat_banner_contact_changed">Contact identity changed. Tap to accept or decline.</string>
+    <string name="chat_banner_contact_not_verified">Identity not confirmed. Tap to confirm.</string>
+
+    <string name="chat_preview_encrypted">(protected)</string>
+    <string name="chat_preview_empty">(empty)</string>
+
+    <!-- Common UI literals -->
+    <string name="common_empty_parens">(empty)</string>
+
+    <!-- Toasts (generic + chat) -->
+    <string name="toast_fp_copied">ID copied</string>
+    <string name="toast_import_failed">Import failed</string>
+    <string name="toast_invalid_json">Invalid data</string>
+    <string name="toast_self_import_forbidden">You can’t add yourself</string>
+    <string name="toast_contact_imported">Contact added</string>
+    <string name="toast_identity_not_ready">Identity unavailable</string>
+    <string name="toast_missing_contact">Contact not found</string>
+    <string name="toast_sending_blocked_contact_changed">Contact identity changed. Accept or decline before continuing.</string>
+    <string name="toast_sending_disabled">You can write when the contact is available</string>
+    <string name="toast_message_not_sent">Can’t send right now</string>
+    <string name="toast_message_queued">Can’t send right now</string>
+    <string name="toast_internal_error">Internal error</string>
+
+    <!-- Toasts (contacts import + multi-QR) -->
+    <string name="toast_import_too_large">Import too large</string>
+    <string name="toast_invalid_qr">Invalid QR</string>
+    <string name="toast_invalid_qr_header">Invalid QR header</string>
+    <string name="toast_invalid_qr_payload">Invalid QR part</string>
+    <string name="toast_qr_header_ok_missing_parts">Header OK. Missing %1$d part(s).</string>
+    <string name="toast_qr_part_ok_missing_items">Part %1$d/3 OK. Missing %2$d item(s).</string>
+    <string name="toast_qr_all_parts_received_importing">Header + 3/3 parts received. Importing.</string>
+
+    <string name="toast_contact_already_exists">Contact already exists</string>
+    <string name="toast_contact_not_found">Contact not found</string>
+    <string name="toast_contact_verified">Identity confirmed</string>
+    <string name="toast_contact_unverified">Identity not confirmed</string>
+
+    <string name="toast_approved">Accepted</string>
+    <string name="toast_rejected">Declined</string>
+    <string name="toast_import_processed">Import processed</string>
+
+    <!-- Toasts (contacts actions) -->
+    <string name="toast_address_cleared">Address cleared</string>
+    <string name="toast_contact_deleted">Contact deleted</string>
+    <string name="toast_invalid_address">Invalid address</string>
+    <string name="toast_address_saved">Address saved</string>
+
+    <string name="toast_contact_already_verified">Identity already confirmed</string>
+
+    <!-- Suffix-based confirmation -->
+    <string name="chat_verify_enter_suffix">Type the last %1$d characters to confirm</string>
+    <string name="toast_verify_suffix_mismatch">Confirmation failed</string>
+</resources>
